@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Senior Michie Practice Page</title>
+  <link rel="icon" href="favicon.ico">
 </head>
 <body>
   <header id="landingpagelinks" role="banner">
@@ -26,6 +27,10 @@
   <h5 title="Head 5">Dead men tell no tale</h5>
   <h6 title="Head 6">The grass is greener on the other side</h6>
 
+  <p>Click on this picture to go back to my Landing Page</p>
+  <a href="http://infm.mercer.edu/infm212/2021_sp1/DominiqueM/" title="Back to INFM 212"
+  ><img src="cmr-pic.png" alt="Pic of my Logo" title="Pic of my Logo"></a>
+
   <article>
   <h2>Chapter 3</h2>
 
@@ -44,11 +49,28 @@
   </section>
   </article>
 
+  <img src="practice-photo.png" width="30%" height="30%" alt="Selfie photo of Dominique in the car"
+  title="Selfie photo of Dominique in the car">
+
+  <p>Completion of Semester <meter max="1.00" value=".25" title="Semester Completion">25%</meter> 25%</p>
+  <p>Completion of the Degree <progress max="100.0" value="60.0">90% Completed</progress></p>
+
+  <p>We need to get to the meeting <abbr title="As Soon As Possible">ASAP</abbr> (As Soon As Possible)! </p>
+
+  <p><dfn>Mada Mada Dane</dfn> means "no, not yet" in Japanese. Reference:
+    <a href="https://www.urbandictionary.com/define.php?term=mada%20mada%20dane" title="Urban Dictionary">Urban Dictionary</a></p>
+
+  <p> I love to drink H<sub>2</sub>0 <a href="#footnote-1"><sup>1</sup></a> </p>
+
   <figure title="Sample of HTML/CSS code">
     <figcaption>Sample of HTML/CSS code from <cite>https://html.com/</cite></figcaption>
 
     <img src="html-image.png" width="350" height="300" alt="Sample of HTML/CSS code">
   </figure>
+
+  <ruby>
+    Hello <rp>(</rp><rt>How Are You</rt><rp>)</rp>
+  </ruby>
 
   <p>I love the song <cite>Happier</cite> by Marshmello and Bastille. This taught
   me how to move on with this part of the lyric:</p>
@@ -59,29 +81,50 @@
         'Cause this just don't feel right to me
         I wanna raise your spirits
         I want to see you smile but
-        Know that means I'll have to leave</q>
+        <mark>Know that means I'll have to leave</mark></q>
 
-<p> I hope that I graduate <time datetime="2021-06/01">June 1st 2021</time></p>
+<p> I hope that I <span>graduate</span> <time datetime="2021-06-01">June 1st 2021</time>.
+In a race, I stride for 1<sup>st</sup> place!</p>
 
-<figure>
-</figure>
+<pre>
+  *STAY  ALIVE  IN THE HIVE*
+  <br>
+  *STAY  ALIVE  IN THE HIVE*
+</pre>
+
+<bdo dir="rtl">STAY  ALIVE  IN THE HIVE</bdo>
 
   </blockquote>
 
   <details>
-    <summary>Numbers 1-3</summary>
+    <summary>Numbers 1-4</summary>
     <ol>
-      <li>one</li>
-      <li>two</li>
-      <li>three</li>
+      <li><del>one</del></li>
+      <br>
+      <li><del>two</del></li>
+      <br>
+      <li><s>three</s></li>
+      <br>
+      <li><ins>four</ins></li>
   </details>
+
+  <p>Examples of the code used on this page so far:</p>
+    <ol>
+      <li><code>&lt;summary&gt;</code></li>
+      <li><code>&lt;blockquote&gt;</code></li>
+      <li><code>&lt;details&gt;</code></li>
+      <li><code>&lt;li&gt;</code></li>
+    </ol>
 
   <aside role="complementary">
   <p><em><strong>Please look at the special sections in the textbook</strong></em></p>
   </aside>
 
   <footer role="contentinfo">
+    <p id="footnote-1"><sub>1</sub> I really like Mountain Dew; I drink water
+    because it is necessary</p>
     <p><small>Place footer here &copy; CMR Portfolio</small></p>
+
   </footer>
 </main>
 </html>
