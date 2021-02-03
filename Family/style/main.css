@@ -1,0 +1,55 @@
+body{
+  background-color: #00092e;
+}
+
+header {
+  background-image: url(../images/family-banner.png);
+  opacity: .5;
+  padding: 20px 10px 20px 0px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Notable;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #ffffff;
+  width: 10%;
+  float: left;
+  height: 250px;
+  border: 5px solid #c9d4ff;
+}
+
+section {
+  background-color: #ffffff;
+  border: 5px solid #c9d4ff;
+  padding: -10px -10px -10px 0px;
+  margin: 0px 50px 50px 50px;
+}
+
+footer {
+  color: #ffffff;
+
+}
+
+#familywalk {
+  margin: 10px 50px 10px 450px;
+}
+
+.familymembers {
+  margin: -10px 50px 10px 450px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  background-color: #e6e6ff;
+  padding: 2px;
+  color: #000000;
+  font-family: Notable;
+  }
+
+li {
+  list-style: none;
+  padding: 2px;
+}
