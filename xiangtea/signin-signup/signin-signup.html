@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/main2.css">
+    <title>Sign In</title>
+    <link rel="icon" href="../xiangtea.ico">
+  </head>
+  <body>
+    <section>
+      <img src="logo.png" alt="Xiang Herb Tea logo" class="logosignin">
+    </section>
+
+    <section class="signinform">
+    <form action="/action_page.php" method="post">
+  <div class="formheader">
+    <h2>Please Sign In</h2>
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="rgba(255, 255, 255, 0.75)">
+    <button type="button" class="cancelbtn"> <a href="../index3.html">Cancel</a></button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</section>
+  </body>
+</html>

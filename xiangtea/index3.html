@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/main3.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xiang Herbs Tea</title>
+    <link rel="icon" href="xiangtea.ico">
+    <script src="https://kit.fontawesome.com/a2375f7b1e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <button id="open-button"> <img src="chatboxicon.png" width=80 height=80 title="chat box"> </button>
+    <div id="overlay">
+        <section class="popup">
+          <div class="popup-header">
+            <span id="close">&times;</span>
+            <i class="far fa-comment-alt" style="font-size:28px"></i>
+          </div>
+          <div class="popup-main"></div>
+          <form class="popup-footer">
+            <input type="text" placeholder="Please ask your question...">
+            <button type="submit" class="chatsend-btn">Send</button>
+          </form>
+
+        </section>
+
+    </div>
+
+    <header class="index">
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+          <div class="logo"><a href="#">Xiang Herbs Tea</a></div>
+          <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Favorites</a></li>
+          <li><a href="#">Account</a></li>
+          <li class="navsectiondevider">Shopping by Category</li>
+          <li>
+            <a href="#" class="desktoplink">Loose Leaf</a>
+            <input type="checkbox" id="show-looseLeaf">
+            <label for="show-looseLeaf">Loose Leaf</label>
+              <ul>
+                <li><a href="#">Green</a></li>
+                <li><a href="#">Black</a></li>
+                <li><a href="#">White</a></li>
+                <li><a href="#">Herbal</a></li>
+                <li><a href="#">Chai</a></li>
+                <li><a href="#">Oolong</a></li>
+              </ul>
+          </li>
+          <li>
+            <a href="#" class="desktoplink">Herbal Wellness</a>
+            <input type="checkbox" id="show-herbalwellness">
+            <label for="show-herbalwellness">Herbal Wellness</label>
+              <ul>
+                <li><a href="#">Cold & Defense</a></li>
+                <li><a href="#">Sleep & Relaxation</a></li>
+                <li><a href="#">Alertness & Focus</a></li>
+                <li><a href="#">Hydration & Glow</a></li>
+                <li><a href="#">Detox & Digestion</a></li>
+              </ul>
+              <li><a href="#">Tea Sets</a></li>
+              <li><a href="#">Gifts & More</a></li>
+              <li class="navsectiondevider">Looking for More</li>
+              <li><a href="#">Need Help?</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Follow Us</a></li>
+              <li><a href="#">FAQ</a></li>
+          </li>
+        </ul>
+        </div>
+        <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form class="search-box" action="#">
+          <input type="text" placeholder="Search for..." required>
+          <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right" title="submit"></i></button>
+        </form>
+        <a class="naviconlook" href="#"><i class="fa fa-shopping-cart"></i></a>
+        <a class="naviconlook" href="signin-signup/signin-signup.html"><i class="fas fa-user-alt"></i></a>
+        </nav>
+      </header>
+
+
+
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<main>
+    <div class="carouselposition">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Herbs Home Banner.png" height="350px" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="New Arrivals banner.png" height="350px"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="While Supply Last Home banner.png" height="350px"  class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</div>
+<br><br><br>
+    <div class="body">
+      <h2>Specials</h2>
+      <hr>
+      <br>
+      <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img class="specialborders cardspecials" src="specialsection1.png" width="250" title="St. Patrick Day Specials">
+    </div>
+    <br>
+    <br>
+    <div class="col-sm">
+      <img class="specialborders cardspecials" src="specialsection2.png" width="250" title="Buy Three Get One Free">
+    </div>
+    <br>
+    <br>
+    <div class="col-sm">
+      <img class="specialborders cardspecials" src="specialsection3.png" width="250" height="275" title="Sign up for Member Specials">
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+      <h2>While Supply Last</h2>
+      <hr>
+      <div class="cards-list">
+
+<div class="card 1">
+  <div class="card_image"> <img src="Dragonwell Tea Organic.png" /> </div>
+  <div class="card_title title-black">
+    <p>Dragonwell Tea Organic</p>
+
+  </div>
+</div>
+
+  <div class="card 2">
+  <div class="card_image">
+    <img src="Jasmine Pearls Tea Organic.png" />
+    </div>
+  <div class="card_title title-black">
+    <p>Jasmine Pearls Tea Organic</p>
+    <br>
+    <br>
+  </div>
+</div>
+
+<div class="card 3">
+  <div class="card_image">
+    <img src="Cinnamon Orange Spice Tea Organic.png" />
+  </div>
+  <div class="card_title">
+    <p>Cinnamon Orange Spice Tea Organic</p>
+    <br>
+    <br>
+  </div>
+</div>
+
+  <div class="card 4">
+  <div class="card_image">
+    <img src="Lazy Daze Tea Organic.png" />
+    </div>
+  <div class="card_title title-black">
+    <p>Lazy Daze Tea Organic</p>
+    <br>
+    <br>
+  </div>
+  </div>
+  <br>
+  <br>
+</div>
+<br><br><br><br>
+      <h2>Herbal Wellness</h2>
+      <hr>
+      <br>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Herbal Wellness.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Herbal Wellness2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Herbal Wellness3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Herbal Wellness4.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Herbal Wellness4.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+      <h2>Loose Leaf</h2>
+      <hr>
+
+      <div class="container">
+  <div class="row">
+    <div class="col-sm tagspecial">
+      <a href="#"> <img src="Green Tag.png" alt=""></a>
+    </div>
+    <div class="col-sm tagspecial">
+      <a href="#"> <img src="Black Tag.png" alt=""></a>
+    </div>
+    <div class="col-sm tagspecial">
+      <a href="#"> <img src="White Tag.png" alt=""></a>
+    </div>
+    <div class="col-sm tagspecial">
+      <a href="#"><img src="Herbal Tag.png" alt=""></a>
+    </div>
+    <div class="col-sm tagspecial">
+      <a href="#"><img src="Chai Tag.png" alt=""></a>
+    </div>
+    <div class="col-sm tagspecial">
+      <a href="#"><img src="Oolong Tag.png" alt=""></a>
+    </div>
+  </div>
+</div>
+
+  </main>
+
+    <footer>
+      <div class="container">
+    <div class="row">
+    <div class="col-sm">
+      <p>Follow Us</p>
+      <ul>
+        <li class="socialmediafooter"> <a href="#"> <img src="facebookfootericon.png" width="30px" height="30px" alt="Facebook" title="Facebook"> </a> </li>
+        <li class="socialmediafooter"> <a href="#"> <img src="igfootericon.png" width="30px" height="30px" alt="Instagram" title="Instagram"> </a> </li>
+        <li class="socialmediafooter"> <a href="#"> <img src="twitterfootericon.png" width="30px" height="30px" alt="Twitter" title="Twitter"> </a> </li>
+      </ul>
+    </div>
+    <div class="col-sm">
+      <p>Explore</p>
+      <ul>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">About Us</a></li>
+        <li> <a href="#">Search</a></li>
+        <li> <a href="#">Cart</a></li>
+        <li> <a href="#">Orders</a></li>
+      </ul>
+    </div>
+    <div class="col-sm">
+      <p>Need Help</p>
+      <ul>
+        <li> <a href="#">FAQ</a></li>
+        <li> <a href="#">Xiang Forum</a></li>
+        <li> <a href="#">Contact Us</a></li>
+        <li> <a href="#">Exchange/Return</a></li>
+      </ul>
+    </div>
+    <div class="col-sm">
+      <p>Legal</p>
+      <ul>
+        <li> <a href="#">Terms</a></li>
+        <li> <a href="#">Privacy</a></li>
+      </ul>
+    </div>
+
+
+    <div class="col-sm">
+      <address><small>
+        Xiang Herbs Tea
+        <br>
+        123 Main Street
+        <br>
+        Atlanta, GA
+        <br>
+        00000-0000
+        888-888-8888
+    </small></address>
+
+    </div>
+    </div>
+    </div>
+    </footer>
+
+
+
+    <p class="copyrightfooter"><small class="copyrightfooter">
+
+    Xiang Herbs Tea &copy; 2020</small></p>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  </body>
+</html>
