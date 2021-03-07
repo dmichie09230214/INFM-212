@@ -355,6 +355,90 @@ font-weight: bolder;
   margin-left: 50px;
 }
 
+/*--------------------------------SUBSCRIBE COMPONENTS---------*/
+
+.subscriberconfirmsection {
+  position: relative;
+  top: 140px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.modalsubscribe {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#subcribehomeinput  {
+  background-color: #fff;
+  box-shadow: 2px 2px 10px #000;
+  width: 250px;
+}
+
+#subscribebutton  {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+}
+
+#subscribebutton a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#subscribebutton:hover{
+  transform: scale(0.98);
+}
+
+.subscribebutton  {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+}
+
+.subscribebutton a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+.subscribebutton:hover{
+  transform: scale(0.98);
+}
+
+.containerdecor {
+  box-shadow: 2px 2px 10px #333300;
+}
+
+#subscribecontainer{
+  position: relative;
+  top: 150px;
+  left: 250px;
+  width: 800px;
+  height: 400px;
+  padding-top: 50px;
+}
+
+.subscribesection {
+  position: relative;
+  bottom: 250px;
+  left: 150px;
+  padding-left: 200px;
+  padding-right: 175px;
+}
+
 /*////////////////////////////////////////////////////////Hurry While Supply Last*/
 
 .cards-list {
@@ -497,7 +581,7 @@ footer  {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -695,4 +779,963 @@ input {
   box-shadow: inset 0 0 0 2em #00b637;
 }
 
-/*//////////////////////////////SIGN IN/SIGN UP/////////////*/
+/*//////////////////////////////CONTACT US/////////////*/
+
+#commentsubmit  {
+  width: 300px;
+  height: 50px;
+  border-color: #302712;
+  background: #fff;
+}
+
+#commentsubmit a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#commentsubmit:hover{
+  transform: scale(1.1);
+}
+
+.contactus  {
+  position: relative;
+  left: 0;
+  top: 125px;
+  width: 40%;
+  font-size: 15px;
+}
+
+.contactuscontent {
+  position: relative;
+  width: 40%;
+  font-size: 15px;
+  left: 325px;
+  bottom: 500px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+
+.socialmediacontactus {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-left: 55px;
+}
+
+.helplinks  {
+  text-decoration: none;
+  color: #000;
+}
+
+.contactusconfirmsection{
+  position: relative;
+  top: 100px;
+  margin-bottom: 0px;
+}
+
+.contactusconfirmpassage  {
+  padding-left: 180px;
+}
+
+.contactusconfirmpassage h3 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.contactusconfirmpassage h3 a{
+  font-family: 'Julius Sans One', sans-serif;
+  color: #000;
+}
+
+.contactusconfirmpassage h3 a:hover {
+  color: #699e3c;
+}
+
+/*//////////////////////////////////////////////////TEA ICONS//////////////////////*/
+
+.greenteaicons {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.blackteaicons {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0px;
+  padding-bottom: 0;
+  padding-left: 200px;
+}
+
+.blackteatitle  {
+  padding-left: 0;
+  padding-top: 80px;
+}
+
+.herbalteaicons {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0px;
+  padding-bottom: 0;
+  padding-left: 200px;
+}
+
+.herbalteatitle  {
+  padding-left: 0;
+  padding-top: 80px;
+}
+
+/*/////////////////////////////////////////////////TEA PRODUCT PAGE///////////////////////*/
+
+.xiangbuttons  {
+  width: 250px;
+  height: 50px;
+  border-color: #302712;
+  background: #fff;
+}
+
+.xiangbuttons a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+.xiangbuttons:hover{
+  transform: scale(1.1);
+}
+
+.sharesocialmediaicons{
+  transform: translate(310px, -40px);
+}
+
+#sendanemail  {
+  width: 250px;
+  height: 50px;
+  border-color: #302712;
+  background: #fff;
+}
+
+#sendanemail a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#sendanemail:hover{
+  transform: scale(1.1);
+}
+
+#addtocart  {
+  width: 300px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+}
+
+#addtocart a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#addtocart:hover{
+  transform: scale(1.1);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.reviewicon:hover  {
+  opacity: .8;
+}
+
+.rating {
+  position: relative;
+  top:50%;
+  right: 10%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+}
+
+.rating label:before  {
+  content: '\f005';
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: #101010;
+}
+
+.rating label:after  {
+  content: '\f005';
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  color: #699e3c;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+  opacity: 1;
+}
+
+.ratingsize {
+  padding-left: 0;
+  padding-right: 1000px;
+  width: 10%;
+  height: 10%;
+}
+
+.modal-content  {
+  position: absolute;
+  left: 400px;
+  width: 50%;
+}
+
+#myImage:hover  {
+  opacity: .8;
+}
+
+.usericons  {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  width: 18%;
+  height: 10%;
+}
+
+.usericons:hover  {
+  opacity: .8;
+}
+
+.usericondescription  {
+  font-family: 'Julius Sans One', sans-serif;
+  flex-wrap: wrap;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #302712;
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #c7ab59;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #c7ab59;
+  color: #302712;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+[type=radio]  {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+a img:hover {
+  opacity: .6;
+}
+
+.teasizeicon{
+  width: 70px;
+  display: inline;
+}
+
+/*//////////////////////////////////REVIEW////////////////*/
+
+
+
+.containerreview {
+  border: 2px solid #302718;
+  background-color: #c7ab59;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 15px 0;
+}
+
+.containerreview::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.containerreview img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.containerreview span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .containerreview {
+      text-align: center;
+  }
+  .containerreview img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+.teainformation {
+  width: 50%;
+  position: relative;
+  left: 650px;
+  bottom: 200px;
+}
+
+.productpictureandicons {
+  width: auto;
+  position: relative;
+  left: 75px;
+  width: 75%;
+  top: 150px;
+}
+
+.reviewsection  {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.teaiconrow  {
+  width: auto;
+  position: relative;
+  left: 0;
+  top: 100px;
+  flex-wrap: nowrap;
+
+}
+
+
+/*************CART*********************/
+
+#checkout {
+  width: 300px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  margin-left: 100px;
+}
+
+
+#checkout a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#checkout:hover{
+  transform: scale(1.1);
+}
+
+#continueshopping {
+  width: 300px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+}
+
+
+#continueshopping a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#continueshopping:hover{
+  transform: scale(1.1);
+}
+
+.cartbuttonposition{
+  transform: translate(175px, 150px);
+  margin-left: 125px;
+}
+
+.cart-page  {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+table {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th{
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background-color: #003300;
+  font-weight: normal;
+}
+
+td{
+  padding: 10px 5px;
+}
+
+td input  {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a{
+  color: #699e3c;
+  font-size: 12px;
+}
+
+td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table{
+  border-top: 3px solid #003300;
+  width: 100%;
+  max-width: 400px;
+}
+
+td:last-child{
+  text-align: right;
+}
+
+th:last-child{
+  text-align: right;
+}
+
+/*-------------------------CHECKOUT PAGE----------------------*/
+
+#expcvv{
+  margin-left: 100px;
+}
+
+#expyear{
+  width: 15%;
+}
+
+.expmonth {
+  width: 15%;
+}
+
+.expyear{
+  width: 15%;
+}
+
+.ordersummarysection  {
+  float: left;
+  width: 35%;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+.ordersummarysection th{
+  text-align: Left;
+}
+
+.ordersummarysection p{
+  font-weight: bold;
+}
+
+.accordion {
+  background-color: #302712;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.active, .accordion:hover {
+  background-color: #c7ab59;
+  color: #302712;
+}
+
+.panel {
+  width: 50%;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.checkoutforms  {
+  position: relative;
+  top: 100px;
+  margin-bottom: 450px;
+}
+
+ .checkoutrow input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+ .checkoutrow label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+ .checkoutrow input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+ .checkoutcontainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 2px;
+  margin-left: 50px;
+}
+
+/* Floating column for labels: 25% width */
+.accordion .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.accordion .col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+ .accordion .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.shippingradiobutton {
+  display: inline-block;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .accordion .col-25, .accordion .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+#continuetocheckout  {
+  width: 300px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  margin-left: 175px;
+
+}
+
+#continuetocheckout a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#continuetocheckout:hover{
+  transform: scale(1.1);
+}
+
+/*----------------------------DOUBLE CHECK CONFIRMATION-------------*/
+.whitepadding{
+  background-color: #fff;
+}
+
+.doublecheckedit  {
+  width: 250px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  transform: translate(-180px, 0);
+  margin-left: 150px;
+
+}
+
+.doublecheckedit a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+
+.doublecheckheaderinfo  {
+  position: relative;
+  top: 100px;
+}
+
+.doublecheckheaderinfo p{
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 180px;
+}
+
+.doublechecksectionheaders{
+  position: relative;
+  top: 130px;
+  left: 180px;
+  display: flex;
+}
+
+.doublechecksectionheaders button{
+  position: relative;
+  left: 700px;
+  padding: 2px 30px;
+}
+
+.doublecheckitemizedsection{
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  margin-left: 14%;
+  margin-right: 13%;
+  margin-top: 180px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.priceshift{
+  font-weight: bolder;
+}
+
+.doublechecksections  {
+  position: relative;
+  top: 30px;
+  left: 180px;
+  display: flex;
+}
+
+.doublechecksections button{
+  position: relative;
+  left: 650px;
+  padding: 2px 30px;
+}
+
+
+.doublecheckaddresssection{
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  margin-left: 14%;
+  margin-right: 13%;
+  margin-top: 75px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.doublecheckcheckboxs{
+  position: absolute;
+  left: 180px;
+}
+
+#completeorder  {
+  width: 450px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  margin-left: 575px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+#completeorder a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#completeorder:hover{
+  transform: scale(1.1);
+}
+
+
+/*---------------------------CONFIRMATION PAGE----------------------*/
+
+#logocomfirmation{
+  height: 150px;
+  weight: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.confirmationsection{
+  transform:translate(0, 100px);
+}
+
+.confirmationsection p{
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#printconfirmation  {
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  margin-left: 530px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#printconfirmation a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#printconfirmation:hover{
+  transform: scale(1.1);
+}
+
+.confirmationitemicons{
+  height: 150px;
+  width: 150px;
+}
+
+/*---------------------------------ABOUT US---------------------------------------*/
+
+.aboutusvideosection{
+  position: relative;
+  top: 0;
+  left: 50px;
+}
+
+.aboutusvideo {
+  display: block;
+  margin-left: 40px;
+  transform: translate(0, 150px);
+
+}
+
+.aboutussection{
+  margin-left: 400px;
+  margin-right: 400px;
+  transform: translate(250px, -150px);
+  line-height: 35px;
+}
+
+.whyorganicsection{
+  margin-left: 75px;
+  margin-right: 75px;
+  line-height: 35px;
+}
+
+/*-----------------------------SIGNUP/SIGNIN-------------------*/
+
+.logosignin{
+  width: 35%;
+  height: 35%;
+  transform: translate(75px, 110px);
+}
+
+
+.signinform {
+  transform: translate(550px, -575px);
+  border: 2px solid #302718;
+  margin-left: 50px;
+  margin-right: 650px;
+}
+
+.signupform {
+  transform: translate(550px, -575px);
+  border: 2px solid #302718;
+  margin-left: 50px;
+  margin-right: 650px;
+}
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#loginsubmit  {
+  width: 150px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-bottom: -100px;
+}
+
+#loginsubmit a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#loginsubmit:hover{
+  transform: scale(1.1);
+}
+
+.signinicons{
+  height: 75px;
+  weight: 75px;
+  transform: translate(215px, 0);
+  margin: 10px;
+}
+
+.signingrouplinks{
+  text-decoration: none;
+  color: #699e3c;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+}
+
+.signingrouplinks:hover{
+  color: #c7ab59;
+}
+
+#signupsubmit  {
+  width: 350px;
+  height: 50px;
+  border-color: #302712;
+  background: linear-gradient(45deg, #ded2a8, #c7ab59);
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+#signupsubmit a{
+  font-family: 'Julius Sans One', sans-serif;
+  text-decoration: none;
+  color: #302712;
+  font-weight: bolder;
+}
+
+#signupsubmit:hover{
+  transform: scale(1.1);
+}
